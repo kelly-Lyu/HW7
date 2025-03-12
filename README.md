@@ -11,11 +11,6 @@ This repository contains my solutions for Homework 7 from [Course Name/Class Inf
 
 ---
 
-## [Optional] Q1 Extra
-
-In this section, I demonstrate how setting certain priors for \(\beta\) (e.g., normal or Laplace) corresponds to ridge or lasso‐style regularization in a Bayesian framework. The derivation shows that Bayesian methods naturally incorporate penalty terms through the prior.
-
----
 
 ## Q2: Perform Bayesian Linear Regression
 
@@ -23,11 +18,6 @@ In this section, I demonstrate how setting certain priors for \(\beta\) (e.g., n
 
 ---
 
-## [Optional] Q2 Extra: Perform Generalized Bayesian Linear Regression
-
-Here, I replace the usual normal residual distribution with an alternative (e.g., Poisson or logistic) and use an appropriate link function for a generalized linear model. The code demonstrates how to adapt the basic PyMC model to other likelihoods and link functions.
-
----
 
 ## Q3: Perform Robust Bayesian Linear Regression
 
