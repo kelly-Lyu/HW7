@@ -1,20 +1,20 @@
 # HW7
 # Homework 7 Solutions
 
-This repository contains my solutions for Homework 7 from [Course Name/Class Info Here]. I have included the relevant code, a brief explanation of each solution, and the dataset I used (`portugal.xlsx`).
+This repository contains my solutions for Homework 7. I have included the relevant code, a brief explanation of each solution, and the dataset I used (`portugal.xlsx`).
 
 ---
 
 ## Q1: Derive the Following
 
-**Q1** involves deriving the posterior distributions for linear regression parameters and the error variance when given a Gaussian likelihood. I show the derivation step by step, highlight how the likelihood and prior combine, and arrive at the conjugate inverse-gamma form for \(\sigma^2\).
+**Q1** involves deriving the posterior distributions for linear regression parameters and the error variance when given a Gaussian likelihood. I show the derivation step by step, highlight how the likelihood and prior combine, and arrive at the conjugate inverse-gamma form.
 
 ---
 
 
 ## Q2: Perform Bayesian Linear Regression
 
-**Q2** focuses on constructing a Bayesian linear regression model without using an inverse-gamma prior for \(\sigma\). I use normal priors for the regression coefficients (`pm.Normal`) and a half‐normal prior for \(\sigma\), then present MCMC results, posterior diagnostics, and posterior predictive checks.
+**Q2** focuses on constructing a Bayesian linear regression model without using an inverse-gamma prior. I use normal priors for the regression coefficients (`pm.Normal`) and a half‐normal prior, then present MCMC results, posterior diagnostics, and posterior predictive checks.
 
 ---
 
